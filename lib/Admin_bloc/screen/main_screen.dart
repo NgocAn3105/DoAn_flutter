@@ -1,5 +1,4 @@
-import 'package:admin/Admin/screen/info_employee.dart';
-import 'package:admin/Admin/screen/screenNew.dart';
+import './HomeEmployeeScreennew.dart';
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatefulWidget {

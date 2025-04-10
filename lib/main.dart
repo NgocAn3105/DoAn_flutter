@@ -1,10 +1,6 @@
-import 'package:admin/Admin/screen/screenNew.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'Admin/AdminEmployeeScreen.dart';
-import 'Admin/Admin_bloc.dart';
-import 'Admin/Admin_event.dart';
-import 'Admin/screen/login_screen.dart';
+
+import 'Admin_bloc/screen/Login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +28,7 @@ class HomeScreen extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Cham Soc Thu Cung",
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const LoginScreen(),
+      home: LoginScreen(),
     );
   }
 }
